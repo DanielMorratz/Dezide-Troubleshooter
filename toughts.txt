@@ -1,3 +1,6 @@
+todo;
+    lav et java project (package) hvor classer og alt muligt kan snakke sammen
+
 Task 1:
 
 implement a component module
@@ -27,9 +30,22 @@ Task 2:
 
 Spørgsmål til opgaven?
 
-Ønsker i også at se unittest? 
+Ønsker i også at se unittest?
 
 hvad vil det sige at det skal være et resuable component?
+    - https://dzone.com/articles/reusable-components-in-java
+    - https://medium.com/@muzammilbintauseef/mastering-efficiency-a-guide-on-how-to-write-reusable-java-code-92dd2459ccc4
 
-hvordan designes modulært? High quality? Maintainable?
+hvordan designes det High quality? Maintainable?
+    - https://medium.com/swlh/writing-readable-and-maintainable-code-java-8c0adc2f5930
+
+hvordan laver jeg det modulært?
+    - https://stackoverflow.com/questions/1444221/how-to-make-code-modular
+
+
+Hvad er -jar command for noget?
+    - Det bruges til at køre en JAR fil (java package essentially)
+    - Hvordan laver og kører jeg <file>.jar ? (EXPLORER -> JAVA projects -> export to JAR )
+        https://www.youtube.com/watch?v=AV-ZdQawZDM
+
 
