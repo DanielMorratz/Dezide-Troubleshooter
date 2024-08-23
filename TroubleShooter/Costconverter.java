@@ -5,10 +5,10 @@ public class Costconverter {
 
     public int converter(int time, int money, Model model)
     {
-        int modelId = model.id;
-        //int timefactor == timefactor(modelId)
 
-        return time * model.timefactor + money;
+        int timefactor = model.gettimefactor();
+
+        return time * timefactor + money;
     }
 }
 
