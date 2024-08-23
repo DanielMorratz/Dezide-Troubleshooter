@@ -1,0 +1,35 @@
+Task 1:
+
+implement a component module
+    - takes time, money and model id as input
+    - returns total cost rounded off
+        to the nearest whole number
+
+    - total cost = time * timeFactor + money
+
+    - implement a global timeFactor (use if no local timeFactor exist)
+    - implement a local timeFactor
+
+Requirements:
+    -   launchable from command line
+        e,g java -jar costconverter.jar <time> <money> <model id>
+
+    - time = minutes
+    - money  = cost in [valuta]
+    - model = identifier of the model
+
+
+
+Task 2:
+
+
+
+
+Spørgsmål til opgaven?
+
+Ønsker i også at se unittest? 
+
+hvad vil det sige at det skal være et resuable component?
+
+hvordan designes modulært? High quality? Maintainable?
+
