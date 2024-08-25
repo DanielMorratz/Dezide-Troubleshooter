@@ -1,5 +1,23 @@
 todo;
-    lav et java project (package) hvor classer og alt muligt kan snakke sammen
+DONE!!! tag imod input argumenter
+
+instantiere model
+        - i virkeligheden vil data hentes fra en database, jeg vil gerne komme
+          så tæt på dette som muligt? Nedarvning? if/else kæde?
+        - Hvordan laver jeg en god constructor? Dynamisk klass instantiering?
+          https://jenkov.com/tutorials/java-reflection/dynamic-class-loading-reloading.html#classloader
+
+kald cost converter
+        - Hvordan laver jeg local vs global cost på en god måde?
+
+Til sidst; print output
+
+
+// struktur:
+// Main -> Sender indput videre til constconverter
+// Converter -> laver en masse logik, slår korrekt model op, kan beregne pris ud fra oplysninger fra Main
+// Model -> diverse modeller, deres cost
+// læs her: https://www.geeksforgeeks.org/java-design-patterns/#1-creational-design-patterns-in-java
 
 Task 1:
 
@@ -20,10 +38,6 @@ Requirements:
     - time = minutes
     - money  = cost in [valuta]
     - model = identifier of the model
-
-
-
-Task 2:
 
 
 

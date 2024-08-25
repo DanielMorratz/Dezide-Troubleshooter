@@ -1,12 +1,13 @@
 package TroubleShooter;
 import TroubleShooter.Model;
 
-public class Costconverter {
+public class Costconverter
+{
 
-    public int converter(int time, int money, Model model)
+    public double converter(double time, double money, Model model)
     {
 
-        int timefactor = model.gettimefactor();
+        double timefactor = model.gettimefactor();
 
         return time * timefactor + money;
     }
