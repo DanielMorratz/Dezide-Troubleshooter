@@ -1,5 +1,4 @@
 todo;
-DONE!!! tag imod input argumenter
 
 instantiere model
         - i virkeligheden vil data hentes fra en database, jeg vil gerne komme
@@ -7,10 +6,7 @@ instantiere model
         - Hvordan laver jeg en god constructor? Dynamisk klass instantiering?
           https://jenkov.com/tutorials/java-reflection/dynamic-class-loading-reloading.html#classloader
 
-kald cost converter
-        - Hvordan laver jeg local vs global cost på en god måde?
 
-Til sidst; print output
 
 
 // struktur:
@@ -19,32 +15,16 @@ Til sidst; print output
 // Model -> diverse modeller, deres cost
 // læs her: https://www.geeksforgeeks.org/java-design-patterns/#1-creational-design-patterns-in-java
 
-Task 1:
-
-implement a component module
-    - takes time, money and model id as input
-    - returns total cost rounded off
-        to the nearest whole number
-
-    - total cost = time * timeFactor + money
-
-    - implement a global timeFactor (use if no local timeFactor exist)
-    - implement a local timeFactor
-
-Requirements:
-    -   launchable from command line
-        e,g java -jar costconverter.jar <time> <money> <model id>
-
-    - time = minutes
-    - money  = cost in [valuta]
-    - model = identifier of the model
-
-
-
+task 2:
+ Burde jeg implementere lookup table til adjustments?
 
 Spørgsmål til opgaven?
 
-Ønsker i også at se unittest?
+Burde jeg lave en klasse til at instantiere modeller?
+
+Skal costconverter klassen være singleton?
+
+Hvordan laver jeg local vs global cost på en god måde?
 
 hvad vil det sige at det skal være et resuable component?
     - https://dzone.com/articles/reusable-components-in-java
@@ -63,3 +43,12 @@ Hvad er -jar command for noget?
         https://www.youtube.com/watch?v=AV-ZdQawZDM
 
 
+Compile:
+cd /path/to/parent/directory
+javac TroubleShooter/*.java
+java TroubleShooter.TroubleShooter 0.5 275.0 model1234
+
+
+Export to jar:
+click export to jar -> select main file
+run java -jar Dezide-Troubleshooter <time> <money> <model>
