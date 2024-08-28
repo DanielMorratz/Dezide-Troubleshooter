@@ -1,13 +1,3 @@
-todo;
-
-instantiere model
-        - i virkeligheden vil data hentes fra en database, jeg vil gerne komme
-          så tæt på dette som muligt? Nedarvning? if/else kæde?
-        - Hvordan laver jeg en god constructor? Dynamisk klass instantiering?
-          https://jenkov.com/tutorials/java-reflection/dynamic-class-loading-reloading.html#classloader
-
-
-
 
 // struktur:
 // Main -> Sender indput videre til constconverter
@@ -16,15 +6,19 @@ instantiere model
 // læs her: https://www.geeksforgeeks.org/java-design-patterns/#1-creational-design-patterns-in-java
 
 task 2:
- Burde jeg implementere lookup table til adjustments?
 
-Spørgsmål til opgaven?
+instantiere model
+        - i virkeligheden vil data hentes fra en database, jeg vil gerne komme
+          så tæt på dette som muligt? Nedarvning? if/else kæde?
+        - Hvordan laver jeg en god constructor? Dynamisk klass instantiering?
+          https://jenkov.com/tutorials/java-reflection/dynamic-class-loading-reloading.html#classloader
 
-Burde jeg lave en klasse til at instantiere modeller?
+
+Burde jeg implementere lookup table til adjustments?
+
+Burde jeg lave en inputhandler?
 
 Skal costconverter klassen være singleton?
-
-Hvordan laver jeg local vs global cost på en god måde?
 
 hvad vil det sige at det skal være et resuable component?
     - https://dzone.com/articles/reusable-components-in-java
@@ -46,7 +40,7 @@ Hvad er -jar command for noget?
 Compile:
 cd /path/to/parent/directory
 javac TroubleShooter/*.java
-java TroubleShooter.TroubleShooter 0.5 275.0 model1234
+java TroubleShooter.TroubleShooter 0.5 275.0 Model1234
 
 
 Export to jar:

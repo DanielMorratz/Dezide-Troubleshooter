@@ -1,21 +1,28 @@
 package TroubleShooter;
-// Gør dette til singletong? https://www.geeksforgeeks.org/singleton-class-java/
-public class Model {
-    String modelid = "";
-    double timefactor = 0;
+
+public class Model
+{
+    String modelId = "";
+    double timeFactor = 0;
+    double defaultRiskValue = 1.0;
+    double defaultInconvenienceValue = 1.0;
 
     public Model(String modelid)
     {
-        this.modelid = modelid;
-
-        if (modelid == "model1234")
-        {
-            this.timefactor = 500;
-        }
-
+        this.modelId = new String(modelid);
     }
-    public double gettimefactor()
+
+    public double getLocalTimeFactor()
     {
-        return timefactor;
+        return timeFactor;
+    }
+
+    public double getDefaultRiskValue()
+    {
+        return defaultRiskValue;
+    }
+    public double getDefaultInconvenienceValue()
+    {
+        return defaultInconvenienceValue;
     }
 }
